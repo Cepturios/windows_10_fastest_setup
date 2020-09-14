@@ -8,13 +8,11 @@
 #    Use the @Disassembler0 script instead. It'll probably be more up-to-date than mine:
 #    https://github.com/Disassembler0/Win10-Initial-Setup-Script
 # 
-#    Note from author: Never run scripts without reading them & understanding what they do.
-#
-#	Addition: One command to rule them all, One command to find it, and One command to Run it! 
+#   
 #
 #     > powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JJ8R4')"
 #
-#	Chris Titus Additions:
+#	
 #
 #	- Dark Mode
 #	- One Command to launch and run
@@ -31,10 +29,10 @@ $tweaks = @(
 
 	### External Program Setup
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"InstallAdobe",
-	"Install7Zip",
+	"InstallOpera",
+	"InstallGoogleChrome",
 	"InstallNotepadplusplus",
-	"InstallMediaPlayerClassic",
+	"InstallFirefox",
 
 	### Windows Apps
 	"DebloatAll",
@@ -122,7 +120,7 @@ $tweaks = @(
 	# "SetVisualFXPerformance",     # "SetVisualFXAppearance",
 	# "AddENKeyboard",              # "RemoveENKeyboard",
 	"EnableNumlock",             	# "DisableNumlock",
-	"EnableDarkMode",				# "DisableDarkMode",
+	"DisableDarkMode",				# "EnableDarkMode",
 	"Stop-EdgePDF",
 
 	### Explorer UI Tweaks ###
