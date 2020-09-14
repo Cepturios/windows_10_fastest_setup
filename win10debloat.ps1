@@ -199,9 +199,9 @@ Function InstallTitusProgs {
 	./OOSU10.exe ooshutup10.cfg /quiet
 }
 
-Function InstallAdobe {
-	Write-Output "Installing Adobe Acrobat Reader"
-	choco install adobereader -y
+Function InstallOpera {
+	Write-Output "Installing Opera"
+	choco install opera -y
 }
 
 Function InstallJava {
@@ -209,9 +209,9 @@ Function InstallJava {
 	choco install jre8 -y
 }
 
-Function Install7Zip {
-	Write-Output "Installing 7-Zip"
-	choco install 7zip -y
+Function InstallGoogleChrome {
+	Write-Output "Installing Google Chrome"
+	choco install googlechrome
 }
 
 Function InstallNotepadplusplus {
@@ -219,9 +219,9 @@ Function InstallNotepadplusplus {
 	choco install notepadplusplus -y
 }
 
-Function InstallMediaPlayerClassic {
-	Write-Output "Installing Media Player Classic (VLC Alternative)"
-	choco install mpc-hc -y
+Function InstallFirefox {
+	Write-Output "Installing Firefox"
+	choco install firefox
 }
 
 ##########
